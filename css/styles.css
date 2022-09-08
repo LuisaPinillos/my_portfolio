@@ -1,0 +1,74 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-container .subtitle {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-container .footer-link {
+  color: #11999E;
+}
+
+.skill-row {
+  width: 50%;    /* Skill row has 50% the width of the entire page (width body) */
+  margin: 100px auto 170px;
+  text-align: left;    /* It cancels the text align center of the body */
+  
+}
+
+.skills .skill-text {
+  line-height: 2;    /* Double line height to skill text */
+}
+
+.skills .skill-img-one {
+  width: 25%;    /* It has 25% the width of the skill-row div */
+  float: left;  /* The text wraping the img and shows it in the same line with the img*/
+  margin-right: 30px;
+}
+
+.skills .skill-img-two {
+  width: 25%;    /* It has 25% the width of the skill-row div */
+  float: right;
+  margin-left: 30px;
+}
